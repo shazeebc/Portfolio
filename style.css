@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Oswald&display=swap');
+body{
+  font-family: 'Aboreto', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Oswald', sans-serif;
+}
+.back{
+    background-image: url(/image/bg5.jpg);
+    width: 100%;
+    min-height: 95vh;
+    /* box-sizing: border-box; */
+}
+.container1{
+  background-color:transparent;
+  width: 100%;
+  height: 50%;
+}
+.img1 img{
+  width: 80px;
+  height: 60px;
+  padding-left: 20px;
+}
+.nav{
+  width: 95%;
+  display: flex;
+  
+  justify-content: space-between;
+  
+  
+}
+.option{
+  
+  text-align: end;
+  padding-top: 10px;
+  
+} 
+.option a{
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding-right: 12px;;
+  font-size: large;
+  /* border-width: 20px; */
+ 
+}
+.option a:hover{
+  background-color: #7895B2;
+  border-radius: 10px 1
+  0px;
+  color: black;
+  padding: 5px 5px 5px 5px;
+}
+.border{
+  border: 4px solid#7895B2;
+  border-radius: 20px 20px;
+  padding: 10px 7px 7px 10px ;
+}
+
+  .head{
+    color: white;
+    margin-left: 24%;
+    font-weight: bolder;
+   font-size: x-large;
+    
+  }
+  .devp{
+    color: #7895B2;
+  }
+  .head{
+    padding-top: 5%;
+  } 
+  .head a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0.5rem 0.5rem;
+    background-color:transparent;
+    width: 60%;
+    padding: 5px 5px 5px 5px;
+    
+  }
+  .head a:hover{
+    background-color:#7895B2 ;
+    color: black;
+   
+  }
+  h1{
+    margin: 0%;          
+  }
+  h2{
+    margin: 0%;
+  }
+  @media  (max-width: 500px){
+  .back{
+    min-height: 95vh;
+  }
+}
+@media  (max-width: 450px){
+
+  .back{
+    min-height: 105vh;
+  }
+
+};
+@media  (max-width: 400px){
+
+
+  .back{
+    min-height: 130vh;
+  }
+
+}
+@media  (max-width: 350px){
+
+  .back{
+    min-height: 120vh;
+    width: 120%;
+  }
+}
+@media  (max-width: 300px){
+
+  .back{
+    min-height: 130vh;
+    width: 110%;
+  }
+}
+/* __________________________________________ */
+.back1{
+  background-image: url(/image/bg\ about.jpg);
+  width: 100%;
+  height: 90vh;
+}
+.tell{
+  font-size: larger;
+ 
+}
+.tellbore{
+  border-bottom: 4px solid black;
+  width: 8%;
+}
+.who{
+  background-color:yellow;
+  width: 6%;
+  color: brown;
+  font-size: larger;
+}
