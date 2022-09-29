@@ -8,6 +8,9 @@ font-family: 'Oswald', sans-serif;
     background-image: url(/image/bg5.jpg);
     width: 100%;
     min-height: 95vh;
+    border: 2px solid white;
+    border-radius: 10px;
+    
     /* box-sizing: border-box; */
 }
 .container1{
@@ -70,6 +73,7 @@ font-family: 'Oswald', sans-serif;
     padding-top: 5%;
   } 
   .head a{
+    
     text-decoration: none;
     color: white;
     border: 2px solid white;
@@ -78,11 +82,14 @@ font-family: 'Oswald', sans-serif;
     width: 60%;
     padding: 5px 5px 5px 5px;
     
+    
   }
   .head a:hover{
     background-color:#7895B2 ;
-    color: black;
-   
+    color:black; 
+  }
+  .move{
+    padding-top: 40px;
   }
   h1{
     margin: 0%;          
@@ -125,22 +132,71 @@ font-family: 'Oswald', sans-serif;
   }
 }
 /* __________________________________________ */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .back1{
   background-image: url(/image/bg\ about.jpg);
   width: 100%;
   height: 90vh;
+  border: 2px solid black;
+  border-radius: 10px;
+  flex-wrap: wrap;
 }
-.tell{
-  font-size: larger;
+
+.borders{
+  width: 10%;
+  border: 2px solid black;
+  border-radius: 10px;
+ margin-left: 40%;
+ margin-top: 20px;
+ background-color: #7895B2 ;
+ flex-wrap: wrap;
+}
+.iam1{
+ text-align: center;
+}
+.me img{
+  width: 20%;
+  height: 50vh;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-top: 70px;
+  float:right;
+  
+}
+.columnright{
+    width: 60%;
+    font-size: x-large;
+    padding-top: 30px;
+    padding-left: 10%;
+}
+.text{
+   font-weight: bolder;
+   font-size: xx-large;
+  
+}
+.text span{
+  color: #7895B2;
+  font-size:120%;
+}
+.cv a{
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 20px 20px;
+  color: black;
+  font-weight: bolder;
+  padding: 10px 10px 10px 10px ;
+  background-color: #7895B2;
  
 }
-.tellbore{
-  border-bottom: 4px solid black;
-  width: 8%;
+.cv{
+  padding-top: 10px;
 }
-.who{
-  background-color:yellow;
-  width: 6%;
-  color: brown;
-  font-size: larger;
+.cv a:hover{
+  background-color: transparent;
+
 }
