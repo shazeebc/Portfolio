@@ -1,17 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Bebas+Neue&family=Oswald&display=swap');
+
 body{
   font-family: 'Aboreto', cursive;
 font-family: 'Bebas Neue', cursive;
-font-family: 'Oswald', sans-serif;
+font-family: 'source sans pro', sans-serif;
 }
-.back{
-    background-image: url(/image/bg5.jpg);
-    width: 100%;
-    min-height: 95vh;
-    border: 2px solid white;
-    border-radius: 10px;
-    
-    /* box-sizing: border-box; */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.back{ 
+   background-image: url(/image/bg6.jpg);
+   width: 100%;
+   height: 100Vh;
+   border: 1px solid white;
+   border-radius: 10px 10px;
 }
 .container1{
   background-color:transparent;
@@ -20,20 +23,19 @@ font-family: 'Oswald', sans-serif;
 }
 .img1 img{
   width: 80px;
-  height: 60px;
+  height: 50px;
   padding-left: 20px;
 }
 .nav{
   width: 95%;
   display: flex;
-  
   justify-content: space-between;
   
   
 }
 .option{
-  
-  text-align: end;
+  /* gap: 5%;
+  text-align: end; */
   padding-top: 10px;
   
 } 
@@ -42,29 +44,31 @@ font-family: 'Oswald', sans-serif;
   color: white;
   font-weight: bolder;
   padding-right: 12px;;
-  font-size: large;
+  font-size: x-large;
+  
   /* border-width: 20px; */
- 
 }
+ 
+
 .option a:hover{
   background-color: #7895B2;
-  border-radius: 10px 1
-  0px;
+  border-radius: 10px 10px;
   color: black;
   padding: 5px 5px 5px 5px;
 }
-.border{
-  border: 4px solid#7895B2;
-  border-radius: 20px 20px;
-  padding: 10px 7px 7px 10px ;
+.border a{
+ padding-left: 30px;  
 }
 
   .head{
     color: white;
-    margin-left: 24%;
+    margin-left: 22%;
     font-weight: bolder;
    font-size: x-large;
     
+  }
+  .head1{
+   padding-right: 10px;
   }
   .devp{
     color: #7895B2;
@@ -79,7 +83,7 @@ font-family: 'Oswald', sans-serif;
     border: 2px solid white;
     border-radius: 0.5rem 0.5rem;
     background-color:transparent;
-    width: 60%;
+    width: 58%;
     padding: 5px 5px 5px 5px;
     
     
@@ -92,10 +96,10 @@ font-family: 'Oswald', sans-serif;
     padding-top: 40px;
   }
   h1{
-    margin: 0%;          
+    margin: 2%;          
   }
   h2{
-    margin: 0%;
+    margin: 2%;
   }
   @media  (max-width: 500px){
   .back{
@@ -105,30 +109,42 @@ font-family: 'Oswald', sans-serif;
 @media  (max-width: 450px){
 
   .back{
-    min-height: 105vh;
+    min-height: 125vh;
   }
 
 };
-@media  (max-width: 400px){
+@media  (max-width: 351px){
 
 
   .back{
-    min-height: 130vh;
+    min-height: 160vh;
+  }
+  .head{
+   
+    margin-left: 10%;
+    
+   
   }
 
 }
 @media  (max-width: 350px){
 
   .back{
-    min-height: 120vh;
-    width: 120%;
+    min-height: 130vh;
+    width: 100%;
+  }
+  .head{
+   
+    margin-left: 10%;
+    
+   
   }
 }
 @media  (max-width: 300px){
 
   .back{
     min-height: 130vh;
-    width: 110%;
+    width: 100%;
   }
 }
 /* __________________________________________ */
@@ -137,66 +153,16 @@ font-family: 'Oswald', sans-serif;
   padding: 0;
   box-sizing: border-box;
 }
-.back1{
-  background-image: url(/image/bg\ about.jpg);
-  width: 100%;
-  height: 90vh;
-  border: 2px solid black;
-  border-radius: 10px;
-  flex-wrap: wrap;
-}
-
-.borders{
-  width: 10%;
-  border: 2px solid black;
-  border-radius: 10px;
- margin-left: 40%;
- margin-top: 20px;
- background-color: #7895B2 ;
- flex-wrap: wrap;
-}
-.iam1{
- text-align: center;
-}
-.me img{
-  width: 20%;
-  height: 50vh;
-  border: 2px solid black;
-  border-radius: 20px;
-  margin-right: 20px;
-  margin-top: 70px;
-  float:right;
-  
-}
-.columnright{
-    width: 60%;
-    font-size: x-large;
-    padding-top: 30px;
-    padding-left: 10%;
-}
-.text{
-   font-weight: bolder;
-   font-size: xx-large;
-  
-}
-.text span{
-  color: #7895B2;
-  font-size:120%;
-}
-.cv a{
-  text-decoration: none;
-  border: 1px solid black;
-  border-radius: 20px 20px;
-  color: black;
-  font-weight: bolder;
-  padding: 10px 10px 10px 10px ;
-  background-color: #7895B2;
+.about1{
+ align-items: center;
  
+  width: 7%;
+  border-bottom: 2px solid black;
+  margin: 40px auto 0px auto;
 }
-.cv{
-  padding-top: 10px;
-}
-.cv a:hover{
-  background-color: transparent;
-
+.fast img{
+  height: 20vh;
+  width: 12%;
+  margin-left: 20%;
+  margin-top: 10px;
 }
