@@ -12,7 +12,7 @@ font-family: 'source sans pro', sans-serif;
 .back{ 
    background-image: url(/image/bg6.jpg);
    width: 100%;
-   height: 100Vh;
+   height: 95Vh;
    border: 1px solid white;
    border-radius: 10px 10px;
 }
@@ -51,7 +51,7 @@ font-family: 'source sans pro', sans-serif;
  
 
 .option a:hover{
-  background-color: #7895B2;
+  background-color: #5C2E7E;
   border-radius: 10px 10px;
   color: black;
   padding: 5px 5px 5px 5px;
@@ -153,16 +153,243 @@ font-family: 'source sans pro', sans-serif;
   padding: 0;
   box-sizing: border-box;
 }
+#about {
+  background-image: url(/image/bg\ ab2.webp);
+  width: 100%;
+  height: 160vh;
+  border: 1px solid black;
+  border-radius: 10px 10px;
+  
+}
 .about1{
- align-items: center;
- 
+ align-items: center; 
   width: 7%;
   border-bottom: 2px solid black;
   margin: 40px auto 0px auto;
 }
+.pack{
+  display: flex;
+  margin-top: 5%;
+}
 .fast img{
   height: 20vh;
-  width: 12%;
+  width: 45%;
+  margin-left: 37%;
+  margin-top: 4%;
+ 
+}
+.fast1{
+  text-align: center;
+  width: 82%;
+  margin-left: 17%;
+}
+.fast1 p{
+ font-size: large;
+}
+.respon{
+  margin-left: 5%;
+}
+.respon img{
+  width: 60%;
+  height: 24vh;
   margin-left: 20%;
-  margin-top: 10px;
+  
+  
+  
+}
+.respon p{
+  font-weight: bolder;
+  text-align: center;
+  font-size: large;
+ 
+ 
+}
+.respon h2{
+  text-align: center;
+
+}
+.html{
+     margin-left: 5%;
+}
+.html img{
+  width: 80%;
+  height: 24vh;
+}
+.html h2{
+margin-left: 22%;
+}
+.html p{
+  font-size: large;
+  font-weight: bolder;
+}
+.boot img{
+  height: 20vh;
+  width: 45%;
+  margin-left: 37%;
+  margin-top: 4%;
+ 
+}
+.boot1{
+  text-align: center;
+  width: 82%;
+  margin-left: 17%;
+}
+.boot1 p{
+ font-size: large;
+}
+
+.flex{
+  display: flex;
+}
+.container4 .content3 .grid1{
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 60%;
+   
+}
+.container4 .content3 .grid1 p{
+    color: #413F42;
+    font-size: large;
+    width: 65%;
+    padding-top: 20px;
+}
+.container4 .content3 .grid1 .button1{
+    padding-top: 5%;
+}
+.container4 .content3 .grid1 .button1 a{
+    /* padding-top: 20px; */
+    background-color: #F0F5F9;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #5C2E7E;
+    border: 1px solid black;
+    padding: 15px 60px 15px 60px;
+    border-radius: 10px;
+
+}
+.container4 .title3{
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+   
+}
+.container4 .content3 .grid2 .title4{
+    font-size: x-large;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+
+    
+}
+
+.container4 .content3 .grid2 .content4{
+    display: flex;
+    
+   
+}
+
+.container4 .content3 .grid2 .skills{
+    color: #413F42;
+    background-color: #DFDFDE;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size:medium;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+.grid2{
+  margin-top: 2%;
+  margin-right: 10%;
+  
+
+}
+.wrapper {
+    width: 500px;
+    padding-top: 40px;
+
+}
+ 
+.skill {
+    margin-bottom: 35px;
+    position: relative;
+    overflow-x:hidden;
+}
+ 
+.skill p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1716;
+    margin: 0;
+}
+ 
+.skill:before {
+    width: 100%;
+    height: 20px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+}
+ 
+.skill-bar {
+    width: 100%;
+    height: 20px;
+    background:#5C2E7E;
+    display: block;
+    position: relative;
+}
+ 
+.skill-bar span {
+    position: absolute;
+    border-top: 5px solid #5C2E7E;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+    
+}
+ 
+.skill-bar {
+    position: relative;
+}
+ 
+.skill1 .skill-count1 {
+    right: 0;
+}
+ 
+.skill1 {
+    width: 90%;
+}
+ 
+.skill2 {
+    width: 85%;
+}
+ 
+.skill2 .skill-count2 {
+    right: 0;
+}
+ 
+.skill3{
+   width: 75%;
+}
+ 
+.skill3 .skill-count3 {
+    right: 0;
+}
+.skill4{
+  width: 65%;
+}
+
+.skill4 .skill-count4 {
+   right: 0;
+}
+.ima1{
+  display: flex;
 }
