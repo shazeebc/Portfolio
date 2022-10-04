@@ -120,7 +120,7 @@ font-family: 'source sans pro', sans-serif;
 @media  (max-width: 450px){
 
   .back{
-    min-height: 125vh;
+    min-height: 118vh;
   }
 
 };
@@ -128,7 +128,7 @@ font-family: 'source sans pro', sans-serif;
 
 
   .back{
-    min-height: 160vh;
+    min-height: 165vh;
   }
   .head{
    
@@ -141,7 +141,7 @@ font-family: 'source sans pro', sans-serif;
 @media  (max-width: 350px){
 
   .back{
-    min-height: 130vh;
+    min-height: 120vh;
     width: 100%;
   }
   .head{
@@ -154,7 +154,7 @@ font-family: 'source sans pro', sans-serif;
 @media  (max-width: 300px){
 
   .back{
-    min-height: 130vh;
+    min-height: 120vh;
     width: 100%;
   }
 }
