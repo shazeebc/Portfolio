@@ -51,11 +51,21 @@ font-family: 'source sans pro', sans-serif;
  
 
 .option a:hover{
-  background-color: #5C2E7E;
+  /* background-color:#8758FF; */
   border-radius: 10px 10px;
-  color: black;
-  padding: 5px 5px 5px 5px;
+  color:#8758FF;
+ 
 }
+/* .option a::after{ 
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #8758FF;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+
+} */
 .border a{
  padding-left: 30px;  
 }
@@ -71,7 +81,7 @@ font-family: 'source sans pro', sans-serif;
    padding-right: 10px;
   }
   .devp{
-    color: #7895B2;
+    color: #8758FF;
   }
   .head{
     padding-top: 5%;
@@ -89,7 +99,8 @@ font-family: 'source sans pro', sans-serif;
     
   }
   .head a:hover{
-    background-color:#7895B2 ;
+    /* background-color:#7895B2 ; */
+    background-color: #8758FF;
     color:black; 
   }
   .move{
@@ -154,7 +165,7 @@ font-family: 'source sans pro', sans-serif;
   box-sizing: border-box;
 }
 #about {
-  background-image: url(/image/bg\ ab2.webp);
+  /* background-image: url(/image/bk2.jfif); */
   width: 100%;
   height: 160vh;
   border: 1px solid black;
@@ -163,8 +174,8 @@ font-family: 'source sans pro', sans-serif;
 }
 .about1{
  align-items: center; 
-  width: 7%;
-  border-bottom: 2px solid black;
+  width: 10%;
+  border-bottom: 4px solid black;
   margin: 40px auto 0px auto;
 }
 .pack{
@@ -264,7 +275,7 @@ margin-left: 22%;
     font-size: large;
     text-decoration: none;
     color: #FFFFFF;
-    background-color: #5C2E7E;
+    background-color: #8758FF;
     border: 1px solid black;
     padding: 15px 60px 15px 60px;
     border-radius: 10px;
@@ -340,14 +351,14 @@ margin-left: 22%;
 .skill-bar {
     width: 100%;
     height: 20px;
-    background:#5C2E7E;
+    background:#8758FF;
     display: block;
     position: relative;
 }
  
 .skill-bar span {
     position: absolute;
-    border-top: 5px solid #5C2E7E;
+    border-top: 5px solid #8758FF;
     top: -30px;
     padding: 0;
     font-size: 18px;
@@ -392,4 +403,133 @@ margin-left: 22%;
 }
 .ima1{
   display: flex;
+}
+/* ______________________________________________________ */
+.cont5{
+  border: 2PX solid black;
+   border-radius: 10PX 10PX;
+   width: 100%;
+  
+   
+}
+.prac{
+  align-items: center; 
+  width: 12%;
+  border-bottom: 4px solid black;
+  margin: 40px auto 0px auto;
+  font-weight: bolder;
+  font-size: xx-large;
+  text-transform: uppercase;
+}
+.practext{
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2%;
+  color: #413F42;
+}
+.cont5 .aboutcont {
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.cont5 .aboutcont .aboutimg img{
+  width: 70%;
+  height: 35vh;
+  border: 1px solid black;
+  border-radius: 5px 5px;
+  margin-top: 5%;
+  margin-left: 20%;
+  box-shadow: 5px 5px 5px 5px #9f83e6;
+}
+.cont5 .conttext .web{
+   font-weight: bolder;
+   font-size: x-large;
+   padding-top: 7%;   
+}
+  .practext1{
+ padding-top: 5%;
+ font-weight: bolder;
+color: #959595;
+}
+ .praclink1 {
+    text-decoration: none;
+    font-weight: bolder;
+    padding-top: 9%;
+}
+.praclink1 a{
+  background-color: #8758FF;
+  border: 1px solid black;
+  border-radius: 5px 5px;
+  color: black;
+  text-decoration: none;
+  padding: 5px 5px 5px 5px;
+  font-weight: bolder;
+}
+.praclink1 a:hover{
+    color:black;
+    background-color: white;
+    
+    
+
+}
+.cont6{
+   border: 1px solid black;
+   border-radius: 10px 10px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cont6 .resume{
+  
+   
+  width: 11%;
+  border-bottom: 4px solid black;
+  margin: 40px auto 0px auto;
+  font-weight: bolder;
+  font-size: xx-large;
+  text-transform: uppercase;
+}
+.cont6 .resumeimg img{
+  width: 45%;
+  height: 50vh;
+  border: 2px solid black;
+  border-radius: 5px 5px ;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.cont6 .resumetext{
+    margin-top: 20%;
+    margin-right: 10%;
+}
+.cont6 .resumetext a{
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: xx-large;
+  color: #1a1716;
+  background-color: #8758FF;
+  text-transform: uppercase;
+  border: 1px solid black;
+  border-radius: 10px 10px;
+  padding: 5px 5px 5px 5px;
+ 
+
+}
+.cont6 .resumetext:hover{
+  background-color: white;
+  color: #8758FF;
+  
+}
+.cont7{
+
+}
+.cont7 .contact{
+  align-items: center; 
+  width: 11%;
+  border-bottom: 4px solid black;
+  margin: 40px auto 0px auto;
+  font-weight: bolder;
+  font-size: xx-large;
+  text-transform: uppercase;
 }
