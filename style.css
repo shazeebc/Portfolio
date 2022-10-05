@@ -180,7 +180,7 @@ background-color: grey;
 @media  (max-width: 464px){
 
   .back{
-    min-height: 131vh;
+    min-height: 110vh;
   }
 
 };
