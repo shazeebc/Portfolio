@@ -676,11 +676,21 @@ color: #959595;
 }
 .praclink1 a:hover{
     color:black;
-    background-color: white;
-    
-    
-
+    background-color: white;   
 }
+/* ________________________________________ */
+@media  (max-width: 700px){
+  .cont5 .aboutcont {
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr ;
+  
+  }
+  .conttext div{
+    margin-left: 20%;
+  }
+}
+
 .cont6{
    border: 1px solid black;
    border-radius: 10px 10px;
