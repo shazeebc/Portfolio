@@ -705,7 +705,7 @@ color: #959595;
 .cont6 .resume{
   
    
-  width: 11%;
+  width: 20%;
   border-bottom: 4px solid black;
   margin: 40px auto 0px auto;
   font-weight: bolder;
@@ -746,11 +746,27 @@ color: #959595;
   .cont6{
     height: auto;
   }
+  .cont6 .resume{
+    width: 11%;
+    border-bottom: 4px solid black;
+    margin: 40px auto 0px auto;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-transform: uppercase;
+  }
   .grid{
     display: grid;
     grid-template-columns: 1fr ;
    margin-left: 20%;
    margin-bottom: 5%;
+  }
+  .cont6 .resumeimg img{
+    width: 45%;
+    height: 30vh;
+    border: 2px solid black;
+    border-radius: 5px 5px ;
+    margin-left: auto;
+    margin-top: 5%;
   }
 
 }
