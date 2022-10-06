@@ -185,11 +185,11 @@ background-color: grey;
   }
 
 };
-@media  (max-width: 450px){
+@media  (max-width: 470px){
 
   .back{
     min-height: 118vh;
-    width: 100%
+    width: 108%
   }
 
 };
@@ -1019,5 +1019,5 @@ color: #959595;
   }
 }
 footer{
-  width: 110%;
+  width: 100%;
 }
