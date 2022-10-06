@@ -169,6 +169,7 @@ background-color: grey;
   @media  (max-width: 500px){
   .back{
     min-height: 95vh;
+    width: 100%;
   }
 }
 
@@ -1009,5 +1010,5 @@ color: #959595;
   }
 }
 footer{
-  width: 100%;
+  width: 110%;
 }
