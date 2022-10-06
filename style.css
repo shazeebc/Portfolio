@@ -526,9 +526,10 @@ background-color: grey;
          }
             .abt .abt1{
               margin-left: 7%;
-              width: 60%;
+              width: 95%;
               margin-top: 4%;
             }
+
             .skl{
               margin-left: 2%;
             }
@@ -573,6 +574,7 @@ background-color: grey;
               .abt{
                 display: grid;
                 grid-template-columns: 1fr ;
+                width: 100%;
               }
               .skills12 .skl{
                 font-weight: bolder;
