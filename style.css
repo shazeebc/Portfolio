@@ -168,8 +168,8 @@ background-color: grey;
   }
   @media  (max-width: 500px){
   .back{
-    min-height: 95vh;
-    width: 100%;
+    min-height: auto;
+    width: auto;
   }
 }
 
@@ -185,11 +185,11 @@ background-color: grey;
   }
 
 };
-@media  (max-width: 470px){
+@media  (max-width: 450px){
 
   .back{
     min-height: 118vh;
-    width: 108%
+    width: auto;
   }
 
 };
@@ -198,7 +198,7 @@ background-color: grey;
 
   .back{
     min-height: 170vh;
-    width: 100%;
+    width: auto;
   }
   .head{
    
@@ -226,7 +226,7 @@ background-color: grey;
 
   .back{
     min-height: 125vh;
-    width: 100%;
+    width: auto;
   }
   .head{
    
@@ -239,7 +239,7 @@ background-color: grey;
 
   .back{
     min-height: 140vh;
-    width: 100%;
+    width: auto;
   }
 }
 /* __________________________________________ */
@@ -250,7 +250,7 @@ background-color: grey;
 }
 #about {
   /* background-image: url(/image/bk2.jfif); */
-  width: 100%;
+  width: auto;
   height: 100vh;
   border: 1px solid black;
   border-radius: 10px 10px;
@@ -380,14 +380,14 @@ background-color: grey;
 @media  (max-width: 1000px){
 
 #about {
-  width: 100%;
+  width: auto;
   height: 120vh;
 } 
 }
 @media  (max-width: 900px){
 
   #about {
-    width: 100%;
+    width: auto;
     height: 140vh;
   } 
   .about1{
@@ -399,7 +399,7 @@ background-color: grey;
   @media  (max-width: 850px){
 
     #about {
-      width: 100%;
+      width: auto;
       height: 160vh;
     } 
     .about1{
@@ -412,7 +412,7 @@ background-color: grey;
     @media  (max-width: 800px){
 
       #about {
-        width: 100%;
+        width: auto;
         height: 160vh;
       } 
       .about1{
@@ -432,7 +432,7 @@ background-color: grey;
       @media  (max-width: 560px){
 
         #about {
-          width: 100%;
+          width: auto;
           height: 180vh;
         } 
         .about1{
@@ -462,7 +462,7 @@ background-color: grey;
         @media  (max-width: 470px){
 
           #about {
-            width: 100%;
+            width: auto;
             height: 220vh;
           } 
           .about1{
@@ -517,7 +517,7 @@ background-color: grey;
            }
 
             #about {
-              width: 100%;
+              width: auto;
               height: 260vh;
             } 
             .about1{
@@ -566,14 +566,14 @@ background-color: grey;
             @media  (max-width: 470px){
 
               #about {
-                width: 100%;
+                width: auto;
                 height: auto;
               } 
             }
             @media  (max-width: 350px){
 
               #about {
-                width: 100%;
+                width: auto;
                 height: auto
               } 
               .about1{
@@ -866,7 +866,7 @@ color: #959595;
 @media  (max-width: 950px){
   .cont7{
     /* background-image: url(/image/bg2.jfif); */
-    width: 100%;
+    width: auto;
     height: auto;
   }
   .cont7 .contact{
@@ -1005,7 +1005,7 @@ color: #959595;
     padding: 10% 10% 0% 10%;
    }
    .container7{
-    width: 100%;
+    width: auto;
     height: auto;
     background-color: black;
     border-radius: 10px 10px ;
