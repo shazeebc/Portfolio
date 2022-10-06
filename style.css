@@ -250,7 +250,7 @@ background-color: grey;
 }
 #about {
   /* background-image: url(/image/bk2.jfif); */
-  width: auto;
+  width: 100%;
   height: 100vh;
   border: 1px solid black;
   border-radius: 10px 10px;
@@ -376,13 +376,29 @@ background-color: grey;
    right: 0;
  }
 
+ @media  (max-width: 1050px){
 
+  #about {
+    width: auto;
+    height: 120vh;
+  } 
+  .wrapper {
+    width: 370px;
+    padding-top: 40px;
+  
+  }
+  }
 @media  (max-width: 1000px){
 
 #about {
   width: auto;
   height: 120vh;
 } 
+.wrapper {
+  width: 370px;
+  padding-top: 40px;
+
+}
 }
 @media  (max-width: 900px){
 
@@ -395,6 +411,19 @@ background-color: grey;
      width: 15%;
      
    }
+   .wrapper {
+    width: 370px;
+    padding-top: 40px;
+  
+  }
+  .skills12 .skl1{
+    display: flex;
+    margin-top: 5%;
+    gap: 5%;
+    width: 50%;
+    font-weight: bolder;
+    font-size: large;
+  }
   }
   @media  (max-width: 850px){
 
@@ -407,6 +436,19 @@ background-color: grey;
        width: 15%;
        
      }
+     .wrapper {
+      width: 370px;
+      padding-top: 40px;
+    
+    }
+    .skills12 .skl1{
+      display: flex;
+      margin-top: 5%;
+      gap: 5%;
+      width: 50%;
+      font-weight: bolder;
+      font-size: large;
+    }
     
     }
     @media  (max-width: 800px){
@@ -459,6 +501,54 @@ background-color: grey;
           width: 80%; 
         } 
         }
+        @media  (max-width: 600px){
+
+          #about {
+            width: auto;
+            height: 220vh;
+          } 
+          .about1{
+            align-items: center; 
+             width: 22%;
+             
+           }
+          .abt{
+            display: grid;
+            grid-template-columns: 1fr ;
+          }
+          .skills12 .skl{
+            font-weight: bolder;
+            font-size: x-large;
+            width: 50%;
+       }
+          .abt .abt1{
+            margin-left: 7%;
+            width: 80%;
+            margin-top: 4%;
+          }
+          .skl{
+            margin-left: 2%;
+          }
+          .skill {
+            margin-bottom: 30px;
+            width: 80%; 
+            margin-left: 2%;
+          } 
+          .skills12 .skl1{
+            display: flex;
+            flex-direction: column;
+          }
+          .skills12 .skills1{
+          width: 50%;
+          margin-top: 2%;
+          margin-left: 2%;
+          }
+          .wrapper {
+            width: 387px;
+            padding-top: 40px;
+          
+          }
+          }
         @media  (max-width: 470px){
 
           #about {
