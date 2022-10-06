@@ -865,14 +865,14 @@ color: #959595;
     font-weight: bolder;
     font-size: xx-large;
     text-transform: uppercase;
-    margin-left: 15%;
+    margin-left: 20%;
   }
   .cont7 .contactfont{
-    margin-top: 1%;
+    margin-top: 4%;
     text-align: center;
     font-weight: bolder;
     color: #413F42;
-    margin-left: 7%;
+    margin-left: 6%;
  }
   .cont7 .add{
     display: grid;
