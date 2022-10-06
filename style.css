@@ -995,7 +995,7 @@ color: #959595;
     padding: 10% 10% 0% 10%;
    }
    .container7{
-    width: 120%;
+    width: 100%;
     height: auto;
     background-color: black;
     border-radius: 10px 10px ;
@@ -1007,4 +1007,7 @@ color: #959595;
     text-transform: capitalize;
     font-weight: 400;
   }
+}
+footer{
+  width: 100%;
 }
