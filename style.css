@@ -857,6 +857,23 @@ color: #959595;
     width: 100%;
     height: auto;
   }
+  .cont7 .contact{
+    align-items: center; 
+    width: 30%;
+    border-bottom: 4px solid black;
+    margin: 40px auto 0px auto;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-transform: uppercase;
+    margin-left: 15%;
+  }
+  .cont7 .contactfont{
+    margin-top: 1%;
+    text-align: center;
+    font-weight: bolder;
+    color: #413F42;
+    margin-left: 7%;
+ }
   .cont7 .add{
     display: grid;
     grid-template-columns: 1fr ;
