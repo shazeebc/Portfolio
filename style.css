@@ -852,16 +852,27 @@ color: #959595;
 
 }
 @media  (max-width: 950px){
+  .cont7{
+    /* background-image: url(/image/bg2.jfif); */
+    width: 100%;
+    height: auto;
+  }
   .cont7 .add{
     display: grid;
     grid-template-columns: 1fr ;
+  }
+  .cont7 .add1{
+    margin-top: 7%;
+    font-weight: bolder;
+    font-size: x-large;
+    margin-left: 15%; 
   }
   .cont7 .message1 textarea{
     padding: 10px 10px 10px 10px;
     font-weight: bold;
     outline: none;
-    width: auto;
-    height: auto;
+    width: 80%;
+    height: 50%;
    }
 }
 
