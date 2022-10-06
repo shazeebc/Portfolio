@@ -555,14 +555,14 @@ background-color: grey;
 
               #about {
                 width: 100%;
-                height: 26h0vh;
+                height: auto;
               } 
             }
             @media  (max-width: 350px){
 
               #about {
                 width: 100%;
-                height: 237vh;
+                height: auto
               } 
               .about1{
                 align-items: center; 
