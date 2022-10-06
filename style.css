@@ -373,7 +373,7 @@ background-color: grey;
    right: 0;
  }
 
-/* ______________________________________________________ */
+
 @media  (max-width: 1000px){
 
 #about {
@@ -609,6 +609,7 @@ background-color: grey;
               
               }
               }
+              /* ______________________________________________________ */
 /* .cont5{
   border: 2PX solid black;
    border-radius: 10PX 10PX;
@@ -678,7 +679,7 @@ color: #959595;
     color:black;
     background-color: white;   
 }
-/* ________________________________________ */
+
 @media  (max-width: 700px){
   .cont5 .aboutcont {
     padding-top: 5%;
@@ -690,7 +691,7 @@ color: #959595;
     margin-left: 20%;
   }
 }
-
+/* ________________________________________ */
 .cont6{
    border: 1px solid black;
    border-radius: 10px 10px;
@@ -741,6 +742,19 @@ color: #959595;
   color: #8758FF;
   
 }
+@media  (max-width: 600px){
+  .cont6{
+    height: auto;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr ;
+   margin-left: 20%;
+   margin-bottom: 5%;
+  }
+
+}
+/* __________________________________________________ */
 .cont7{
   /* background-image: url(/image/bg2.jfif); */
   width: 100%;
