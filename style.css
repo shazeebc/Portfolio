@@ -745,14 +745,16 @@ color: #959595;
 @media  (max-width: 600px){
   .cont6{
     height: auto;
+    margin-left: 4%;
   }
   .cont6 .resume{
-    width: 11%;
+    width: 28%;
     border-bottom: 4px solid black;
     margin: 40px auto 0px auto;
     font-weight: bolder;
     font-size: xx-large;
     text-transform: uppercase;
+    margin-left: 35%;
   }
   .grid{
     display: grid;
@@ -765,7 +767,7 @@ color: #959595;
     height: 30vh;
     border: 2px solid black;
     border-radius: 5px 5px ;
-    margin-left: auto;
+    margin-left: 16%;
     margin-top: 5%;
   }
 
@@ -986,6 +988,7 @@ color: #959595;
   text-align: center;
 }
 @media  (max-width: 700px){
+
   .container7 .section7{
     display: flex;
     flex-direction: column;
@@ -996,6 +999,7 @@ color: #959595;
     height: auto;
     background-color: black;
     border-radius: 10px 10px ;
+    margin-left: 4%;
   }
   .container7 .footer .footer-content{
     width: auto;
