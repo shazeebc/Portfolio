@@ -850,6 +850,14 @@ color: #959595;
   background-color: white;
 
 }
+@media  (max-width: 950px){
+  .cont7 .add{
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
+}
+
+/* _____________________________________________________ */
 
 .container7{
   width: 100%;
