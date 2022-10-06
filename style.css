@@ -727,6 +727,12 @@ background-color: grey;
   
    
 } */
+.cont5{
+  border: 2px solid black;
+  width: 100%;
+  height: auto;
+
+}
 .prac{
   align-items: center; 
   width: 12%;
