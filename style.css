@@ -831,6 +831,7 @@ color: #959595;
  padding: 10px 10px 10px 10px;
  font-weight: bold;
  outline: none;
+ 
 }
 .cont7 .send{
   margin-top: 5%;
@@ -855,6 +856,13 @@ color: #959595;
     display: grid;
     grid-template-columns: 1fr ;
   }
+  .cont7 .message1 textarea{
+    padding: 10px 10px 10px 10px;
+    font-weight: bold;
+    outline: none;
+    width: auto;
+    height: auto;
+   }
 }
 
 /* _____________________________________________________ */
