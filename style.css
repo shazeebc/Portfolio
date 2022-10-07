@@ -611,6 +611,7 @@ background-color: grey;
           } 
           .skills12 .skl1{
             display: flex;
+            width: auto;
             flex-direction: column;
           }
           .skills12 .skills1{
@@ -624,7 +625,7 @@ background-color: grey;
           
           }
           }
-          @media  (max-width: 470px){
+          /* @media  (max-width: 470px){
             .back{ 
               background-image: url(/image/bg6.jpg);
               width: 100%;
@@ -652,7 +653,7 @@ background-color: grey;
               width: 50%;
          }
             .abt .abt1{
-              margin-left: 7%;
+              margin-left: 9%;
               width: 80%;
               margin-top: 4%;
             }
@@ -680,7 +681,7 @@ background-color: grey;
               padding-top: 40px;
             
             }
-            }
+            } */
             @media  (max-width: 470px){
 
               #about {
@@ -710,7 +711,7 @@ background-color: grey;
                 width: 50%;
            }
               .abt .abt1{
-                margin-left: 7%;
+                margin-left: 8%;
                 width: 70%;
                 margin-top: 4%;
               }
@@ -724,6 +725,7 @@ background-color: grey;
               } 
               .skills12 .skl1{
                 display: flex;
+                width: 40%;
                 flex-direction: column;
               }
               .skills12 .skills1{
@@ -950,6 +952,20 @@ color: #959595;
   }
 
 }
+@media  (max-width: 400px){
+  .cont6 .resumetext{
+    margin-top: 20%;
+    margin-left: -10%;
+}
+
+}
+@media  (max-width: 350px){
+  .cont6 .resumetext{
+    margin-top: 20%;
+    margin-left: -20%;
+}
+
+}
 /* __________________________________________________ */
 .cont7{
   /* background-image: url(/image/bg2.jfif); */
@@ -1104,7 +1120,7 @@ color: #959595;
   }
    @media  (max-width: 350px){
    .cont7 .add3 input{
-      width: 80%;
+      width: 50%;
      margin-top: 2%;
       padding: 10px 300px 10px 10px;
       border-radius: 5px 5px;
@@ -1155,15 +1171,15 @@ color: #959595;
   padding-left: 30px;
   padding-bottom: 10px;
 }
-.container7 .section7 .social{
-  width: 30%;
-}
-.container7 .section7 .social .icon{
-  display: flex;
-  padding: 10px;
-
-}
-.container7 .section7 .social .icon a{
+.container7 .section7 .social{ 
+  width: 30%; 
+} 
+.container7 .section7 .social .icon{ 
+  display: flex; 
+  padding: 10px; 
+ 
+} 
+.container7 .section7 .social .icon a {
   padding-left: 20px;
 
   
