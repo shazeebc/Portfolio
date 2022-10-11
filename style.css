@@ -801,7 +801,7 @@ background-color: grey;
    padding-top: 2%;   
    color: white;
 }
-.aboutcont{
+/* .aboutcont{
   /* border: 1px solid black; */
   /* width: 92%;
   margin-left: 5%;
@@ -809,8 +809,8 @@ background-color: grey;
   margin-top: 2%;
   border-radius: 10px;
   background-color: lightgrey;
-  box-shadow: 5px 5px 5px 5px #1a1716; */
-}
+  box-shadow: 5px 5px 5px 5px #1a1716; */ */
+
   .practext1{
  padding-top: 5%;
  font-weight: bolder;
@@ -964,7 +964,7 @@ color: #959595;
 
 
 /* ________________________________________ */
- .cont6{
+ /* .cont6{
    /* border: 1px solid black; */
    /* border-radius: 10px 10px;
   background-color: lightgrey;
@@ -973,7 +973,7 @@ color: #959595;
    box-shadow: 5px 5px 5px 5px #1a1716; */
    
    
-} 
+ */
 .grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
