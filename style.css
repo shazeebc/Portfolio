@@ -974,16 +974,7 @@ color: #959595;
       font-size: xx-large;
       text-transform: uppercase;
     }
-    .aboutcont{
-      /* border: 1px solid black; */
-      width: 92%;
-      margin-left: 5%;
-      height: auto;
-      margin-top: 4%;
-      border-radius: 10px;
-      background-color: lightgrey;
-      box-shadow: 5px 5px 5px 5px #1a1716;
-    }
+  
   }
 
 
