@@ -55,7 +55,7 @@ font-family: 'Ubuntu', sans-serif;
 .option a:hover{
   /* background-color:#8758FF; */
   border-radius: 10px 10px;
-  color:#F6F54D;
+  color:#FFCB42;
   border-bottom: 2px solid white;
   width: 5px;
  
@@ -89,7 +89,7 @@ font-family: 'Ubuntu', sans-serif;
   }
  
   .devp{
-    color: #F6F54D;
+    color: #FFCB42;
   }
   .head{
     padding-top: 6%;
@@ -109,7 +109,7 @@ font-family: 'Ubuntu', sans-serif;
   .head a:hover{
     /* background-color:#7895B2 ; */
     background-color: black;
-    color:#F6F54D; 
+    color:#FFCB42; 
     
   }
   .container1 .section1 .nav a:hover{
@@ -382,7 +382,7 @@ h1{
 .skill-bar {
   width: 100%;
   height: 20px;
-  background:#F6F54D;
+  background:#FFCB42;
   display: block;
   position: relative;
 }
@@ -791,7 +791,7 @@ h1{
   margin: 40px auto 0px auto;
   font-weight: bolder;
   font-size: xx-large;
-  color: #F6F54D;
+  color: #FFCB42;
   text-transform: uppercase;
   /* background-color: #413F42; */
   /* border-radius: 10px ; */
@@ -824,7 +824,7 @@ h1{
 }
 .cont5 .aboutcont .aboutimg img:hover{
   box-shadow: 0 0 20px 0;
-  color: #F6F54D;
+  color: #FFCB42;
   transform: scale(1.05);
 }
 .cont5 .conttext .web{
@@ -845,7 +845,7 @@ color: #959595;
     padding-top: 9%;
 }
 .praclink1 a{
-  background-color: white;
+  background-color: #FFCB42;
   border: 1px solid black;
   border-radius: 5px 5px;
   color:black;
@@ -855,7 +855,7 @@ color: #959595;
 }
 .praclink1 a:hover{
     color:black;
-    background-color:#F6F54D; 
+    background-color:white; 
    
 }
 
@@ -878,12 +878,10 @@ color: #959595;
   .conttext div{
     margin-left: 15%;
   }
-
+}
 @media  (max-width: 600px){
   .cont5{
-    /* border: 2px solid black; */
     width: 100%;
-    
     height: auto;
     background-image: url(/image/black1.jpg);
   
@@ -898,7 +896,9 @@ color: #959595;
     margin-left: 15%;
  
 }
-@media  (max-width: 550px){.cont5{
+}
+@media  (max-width: 550px){
+  .cont5{
   /* border: 2px solid black; */
   width: 100%;
   
@@ -916,6 +916,7 @@ color: #959595;
   .conttext div{
     margin-left: 20%;
 
+}
 }
   @media  (max-width: 450px){
     .cont5{
@@ -995,7 +996,7 @@ color: #959595;
   font-weight: bolder;
   font-size: xx-large;
   color: #1a1716;
-  background-color:#F6F54D;
+  background-color:white;
   text-transform: uppercase;
   border: 1px solid black;
   border-radius: 10px 10px;
@@ -1004,8 +1005,8 @@ color: #959595;
 
 }
 .cont6 .resumetext a:hover{
-  background-color:black;
-  color: #F6F54D;
+  background-color:#FFCB42;
+  color: black;
   
 }
 @media  (max-width: 600px){
@@ -1056,12 +1057,12 @@ color: #959595;
 .cont7{
   background-image: url(/image/black1.jpg);
   width: 100%;
-  height: 110vh;
+  height: 120vh;
 }
 .cont7 .contact{
   align-items: center; 
   width: 12%;
-  color:#F6F54D;
+  color:#FFCB42;
   border-bottom: 2px solid white;
   margin: 40px auto 0px auto;
   font-weight: bolder;
@@ -1082,16 +1083,18 @@ color: #959595;
   grid-template-columns: 1fr 1fr;
 }
 .cont7 .add1{
+  color: white;
   margin-top: 7%;
+
   font-weight: bolder;
   font-size: x-large;
   margin-left: 30%; 
-  background-color: #959595;
+  /* background-color: #959595;
   width: 40%;
   height: 30vh;
   border-radius: 10px;
   box-shadow: 5px 5px 5px 5px #9f83e6;
-  
+   */
 }
 .cont7 .add1 ul li{
   list-style: none;
@@ -1142,7 +1145,7 @@ color: #959595;
   padding: 10px 10px;
 }
 .cont7 .send a:hover{
-  color:#F6F54D;
+  color:#FFCB42;
   background-color:black;
 
 }
@@ -1327,7 +1330,7 @@ color: #959595;
   width: 100%;
   height: 53vh;
   background-color: black;
-  border-radius: 10% 10% ;
+ 
 }
 .container7 .section7{
  display: flex;
@@ -1372,7 +1375,7 @@ color: #959595;
 }
 .container7 .footer{
   width: 70%;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 .line1{
   width: 80%;
@@ -1382,6 +1385,7 @@ color: #959595;
 }
 .footernav{
   text-align: center;
+  
  
 }
 @media  (max-width: 700px){
@@ -1405,8 +1409,8 @@ color: #959595;
     font-weight: 400;
   }
 }
-@media  (max-width: 400px){
+/* @media  (max-width: 400px){
 footer{
   width: auto;
 }
-}
+} */
