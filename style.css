@@ -1247,7 +1247,7 @@ color: #959595;
     .cont7{
       /* background-image: url(/image/bg2.jfif); */
       width: auto;
-      height: 140vh;
+      height: auto;
     }
     .cont7 .contact{
       align-items: center; 
@@ -1271,7 +1271,7 @@ color: #959595;
       margin-top: 2%;
       text-align: center;
       font-weight: bolder;
-      color: #413F42;
+      color: white;
       margin-left: 3%;
    }
     .cont7 .add{
