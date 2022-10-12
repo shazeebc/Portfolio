@@ -76,7 +76,7 @@ font-family: 'Ubuntu', sans-serif;
 
   .head{
     color: white;
-    margin-left: 15%;
+    margin-left: 7%;
     font-weight: bolder;
    font-size: x-large;
     
@@ -249,6 +249,7 @@ background-color: grey;
     margin-left:7%;
     font-weight: bold;
    font-size: large;
+   word-spacing: 2%;
     
   }
 
@@ -1246,7 +1247,7 @@ color: #959595;
     .cont7{
       /* background-image: url(/image/bg2.jfif); */
       width: auto;
-      height: 120vh;
+      height: 150vh;
     }
     .cont7 .contact{
       align-items: center; 
