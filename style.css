@@ -210,38 +210,54 @@ background-color: grey;
 
 @media  (max-width: 526px){
 .back{
-  min-height: 100vh;
+  min-height: auto;
 }
 }
 @media  (max-width: 464px){
 
   .back{
-    min-height: 110vh;
+    min-height: auto;
   }
 
 };
 @media  (max-width: 450px){
 
   .back{
-    min-height: 110vh;
+    min-height: 20vh;
     width: auto;
   }
  
   
   .head{
     color: white;
-    margin-left:10%;
+    margin-left:9%;
     font-weight: bold;
    font-size: large;
     
   }
 
 };
+@media  (max-width: 450px){
+  .back{
+    min-height: 20vh;
+    width: auto;
+  }
+ 
+  
+  .head{
+    color: white;
+    margin-left:7%;
+    font-weight: bold;
+   font-size: large;
+    
+  }
+
+}
 @media  (max-width: 390px){
 
 
   .back{
-    min-height: 150vh;
+    min-height: auto;
     width: auto;
   }
   .head{
@@ -256,7 +272,7 @@ background-color: grey;
 
 
   .back{
-    min-height: 165vh;
+    min-height: auto;
   }
   .head{
    
@@ -269,7 +285,7 @@ background-color: grey;
 @media  (max-width: 350px){
 
   .back{
-    min-height: 125vh;
+    min-height: auto;
     width: auto;
   }
   .head{
@@ -282,7 +298,7 @@ background-color: grey;
 @media  (max-width: 300px){
 
   .back{
-    min-height: 140vh;
+    min-height: auto;
     width: auto;
   }
 }
