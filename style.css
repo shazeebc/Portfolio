@@ -227,7 +227,7 @@ background-color: grey;
 @media  (max-width: 450px){
 
   .back{
-    min-height: 20vh;
+    min-height: 120vh;
     width: auto;
   }
  
@@ -242,7 +242,7 @@ background-color: grey;
   }
 
 };
-@media  (max-width: 450px){
+/* @media  (max-width: 450px){
   .back{
     min-height: 20vh;
     width: auto;
@@ -257,6 +257,22 @@ background-color: grey;
    word-spacing: 2%;
    margin-top: 10%;
     
+  }
+
+} */
+@media  (max-width: 405px){
+
+
+  .back{
+    min-height: auto;
+    width: auto;
+  }
+  .head{
+   
+    margin-left: 6%;
+    margin-top: 12%;
+    
+   
   }
 
 }
