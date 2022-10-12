@@ -227,7 +227,7 @@ background-color: grey;
 @media  (max-width: 450px){
 
   .back{
-    min-height: 120vh;
+    min-height: 100vh;
     width: auto;
   }
  
