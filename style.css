@@ -79,6 +79,7 @@ font-family: 'Ubuntu', sans-serif;
     margin-left: 7%;
     font-weight: bolder;
    font-size: x-large;
+   margin-top: 2%;
     
   }
   .head1{
@@ -130,6 +131,9 @@ font-family: 'Ubuntu', sans-serif;
 }
 .container1 .section1 .nav a:hover::after{
     width: 100%;
+}
+.move1{
+  margin-left: 2%;
 }
   .move{
     padding-top: 40px;
