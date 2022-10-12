@@ -237,7 +237,7 @@ background-color: grey;
     margin-left:9%;
     font-weight: bold;
    font-size: large;
-   padding-top: 10%
+   padding-top: 20%
     
   }
 
@@ -260,7 +260,7 @@ background-color: grey;
   }
 
 } */
-@media  (max-width: 405px){
+@media screen and  (max-width: 400px){
 
 
   .back{
@@ -270,13 +270,12 @@ background-color: grey;
   .head{
    
     margin-left: 6%;
-    padding-top: 10%
-    
+   margin-top: 30%;
    
   }
 
 }
-@media  (max-width: 390px){
+@media  (max-width: 400px){
 
 
   .back{
@@ -286,7 +285,7 @@ background-color: grey;
   .head{
    
     margin-left: 6%;
-    padding-top: 10%
+    padding-top: 20%
     
    
   }
