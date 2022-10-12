@@ -275,7 +275,7 @@ background-color: grey;
   }
 
 }
-/* @media  (max-width: 400px){
+@media  (max-width: 400px){
 
 
   .back{
@@ -285,12 +285,12 @@ background-color: grey;
   .head{
    
     margin-left: 6%;
-    padding-top: 20%
+    padding-top: 30%
     
    
   }
 
-} */
+}
 @media  (max-width: 351px){
 
 
