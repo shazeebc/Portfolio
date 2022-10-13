@@ -158,7 +158,7 @@ nav {
       right: 0px;
       height: 100vh;
       top: 8vh;
-      background-color:transparent;
+      background-color:#73777B;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -1559,7 +1559,7 @@ color: #959595;
   
 }
 .container7 .section7 .social .icon i{
-  color: white;
+  color:#FFCB42;
 
 }
 .container7 .footer{
@@ -1577,6 +1577,7 @@ color: #959595;
   
  
 }
+
 @media  (max-width: 700px){
 
   .container7 .section7{
