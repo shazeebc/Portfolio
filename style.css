@@ -13,7 +13,7 @@ font-family: 'Ubuntu', sans-serif;
 .back{ 
    background-image: url(/image/bg6.jpg);
    width: 100%;
-   height: 95Vh;
+   height: 90Vh;
    border: 1px solid white;
    border-radius: 10px 10px;
 }
