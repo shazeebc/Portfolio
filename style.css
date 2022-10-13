@@ -483,7 +483,7 @@ h1{
     height: 120vh;
   } 
   .wrapper {
-    width: 370px;
+    width: 110%;
     padding-top: 40px;
   
   }
@@ -495,7 +495,7 @@ h1{
   height: 120vh;
 } 
 .wrapper {
-  width: 370px;
+  width: 110%;
   padding-top: 40px;
 
 }
@@ -512,7 +512,7 @@ h1{
      
    }
    .wrapper {
-    width: 370px;
+    width: 110%;
     padding-top: 40px;
   
   }
@@ -537,7 +537,7 @@ h1{
        
      }
      .wrapper {
-      width: 370px;
+      width: 110%;
       padding-top: 40px;
     
     }
@@ -644,7 +644,7 @@ h1{
           margin-left: 2%;
           }
           .wrapper {
-            width: 387px;
+            width: 110%;
             padding-top: 40px;
           
           }
@@ -693,7 +693,7 @@ h1{
           margin-left: 2%;
           }
           .wrapper {
-            width: 387px;
+            width: 110%;
             padding-top: 40px;
           
           }
@@ -1423,7 +1423,7 @@ color: #959595;
 .line1{
   width: 80%;
   border-bottom: 2px solid white;
-  margin-left: 120px;
+ 
   padding-top: 1%;
 }
 .footernav{
@@ -1444,6 +1444,9 @@ color: #959595;
     background-color: black;
     border-radius: 10px 10px ;
    
+  }
+  .line1{
+    width: 80%;
   }
   .container7 .footer .footer-content{
     width: auto;
