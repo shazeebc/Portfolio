@@ -1421,7 +1421,7 @@ color: #959595;
   margin-bottom: 15%;
 }
 .line1{
-  width: 80%;
+  width: 100%;
   border-bottom: 2px solid white;
  
   padding-top: 1%;
@@ -1446,7 +1446,7 @@ color: #959595;
    
   }
   .line1{
-    width: 80%;
+    width: 100%;
   }
   .container7 .footer .footer-content{
     width: auto;
