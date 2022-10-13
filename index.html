@@ -14,9 +14,56 @@
 </head>
 
 <body>
+    <nav>
+        <div class="logo1">
+            <div class="img1">
+                <img src="/image/logo s.png" alt="">
+            </div>
+            <!-- <span class="title1">husam rk</span> -->
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li> <a href="#project">PROJECT</a></li>
+            <li><a href="#resume">RESUME</a></li>
+            <li><a href="#cont">CONTACT</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line10"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+</div>
+<script>
+    function navSlide() {
+        const burger = document.querySelector(".burger");
+        const nav = document.querySelector(".nav-links");
+        const navLinks = document.querySelectorAll(".nav-links li");
+
+        burger.addEventListener("click", () => {
+            //Toggle Nav
+            nav.classList.toggle("nav-active");
+
+            //Animate Links
+            navLinks.forEach((link, index) => {
+                if (link.style.animation) {
+                    link.style.animation = ""
+                } else {
+                    link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+                }
+            });
+            //Burger Animation
+            burger.classList.toggle("toggle");
+        });
+
+    }
+
+    navSlide();
+</script>
     <div class="back">
 
-        <div class="container">
+        <!-- <div class="container">
             <div class="container1">
                 <div class="nav">
                     <div class="img1">
@@ -34,7 +81,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+      
 
         <div class="head">
             <div class="head1">
@@ -213,7 +261,7 @@
         </div>
 
     </div> <br>
-    <div class="cont7">
+    <div id="cont" class="cont7">
         <div class=" contact">
             CONTACT
         </div>
@@ -222,6 +270,7 @@
         </div>
         <div class="add">
             <div class="add1">
+               
                 <ul>
                     <li><i class="fa fa-user" aria-hidden="true"></i>  Mohammed Shazeeb C</li>
                     <li><i class="fa fa-envelope" aria-hidden="true"></i>  saquishazz@gmail.com</li>
@@ -250,7 +299,7 @@
     </div><br>
     <footer>
         <div class="container7">
-            <div class="option">
+            <!-- <div class="option">
                 <div class="footernav">
                     <div class="border">
                         <a href="/">Home</a>
@@ -260,7 +309,16 @@
                         <a href="contact">Contact</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
+           <div  class="new1">
+             <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECT</a></li>
+                <li><a href="#about">RESUME</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+             </ul>
+         </div> 
             <div class="section7">
                 <div class="footer">
 
