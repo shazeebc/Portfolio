@@ -1040,7 +1040,7 @@ color: #959595;
   font-weight: bolder;
   font-size: xx-large;
   color: #1a1716;
-  background-color:white;
+  background-color:#FFCB42;
   text-transform: uppercase;
   border: 1px solid black;
   border-radius: 10px 10px;
@@ -1049,7 +1049,7 @@ color: #959595;
 
 }
 .cont6 .resumetext a:hover{
-  background-color:#FFCB42;
+  background-color:white;
   color: black;
   
 }
@@ -1157,7 +1157,11 @@ color: #959595;
   padding: 10px 300px 10px 10px;
   border-radius: 5px 5px;
   outline: none;
+
   background-color: white;
+}
+.width{
+  width: 100%;
 }
 .cont7 .add3 .inemail{
   font-weight: bolder;
@@ -1177,7 +1181,7 @@ color: #959595;
 }
 .cont7 .send{
   margin-top: 5%;
-  margin-left: 68%;
+  margin-left: 63%;
 }
 .cont7 .send a{
   text-decoration: none;
@@ -1335,7 +1339,11 @@ color: #959595;
       padding: 10px 300px 10px 10px;
       border-radius: 5px 5px;
       outline: none;
+      
       margin-left: 7%;
+    }
+    .width{
+      width: 100%;
     }
     .cont7 .message1 textarea{
       padding: 10px 10px 10px 10px;
@@ -1354,6 +1362,9 @@ color: #959595;
       border-radius: 5px 5px;
       outline: none;
       margin-left: 7%;
+    }
+    .width{
+      width: 100%;
     }
     .cont7 .message1 textarea{
       padding: 10px 10px 10px 10px;
