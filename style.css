@@ -376,6 +376,7 @@ h1{
 .skills12 {
   margin-top: 4%;
   margin-left: 4%;
+  width: 85%;
 }
 .skills12 .skl{
      font-weight: bolder;
@@ -394,7 +395,7 @@ h1{
   padding: 5px 5px;
 }
 .wrapper {
-  width: 500px;
+  width: 110%;
   padding-top: 40px;
 
 }
