@@ -1464,6 +1464,16 @@ color: #959595;
 .top i:hover{
   color:white;
 }
+@media  (max-width: 410px){
+  .top{ 
+    text-align: right;
+    font-size: 40px;
+    cursor: pointer; 
+    margin-right: 30px; 
+    margin-left: 280%;
+    
+  }
+}
 /* @media  (max-width: 400px){
 footer{
   width: auto;
