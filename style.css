@@ -1119,7 +1119,7 @@ color: #959595;
     .prac{
       align-items: center; 
       width: 40%;
-      border-bottom: 4px solid white;
+      border-bottom: 2px solid white;
       margin: 40px auto 0px auto;
       font-weight: bolder;
       font-size: xx-large;
@@ -1195,7 +1195,7 @@ color: #959595;
   }
   .cont6 .resume{
     width:30%;
-    border-bottom: 4px solid white;
+    border-bottom: 2px solid black;
     margin: 40px auto 0px auto;
     font-weight: bolder;
     font-size: xx-large;
@@ -1344,7 +1344,7 @@ color: #959595;
   .cont7 .contact{
     align-items: center; 
     width: 38%;
-    border-bottom: 4px solid white;
+    border-bottom: 2px solid white;
     margin: 40px auto 0px auto;
     font-weight: bolder;
     font-size: xx-large;
@@ -1415,7 +1415,7 @@ color: #959595;
     .cont7 .contact{
       align-items: center; 
       width: 38%;
-      border-bottom: 4px solid white;
+      border-bottom: 2px solid white;
       margin: 40px auto 0px auto;
       font-weight: bolder;
       font-size: xx-large;
