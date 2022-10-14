@@ -1457,6 +1457,10 @@ color: #959595;
       text-transform: uppercase;
       margin-left: 30%;
     }
+    .cont7 .send{
+      margin-top: 5%;
+      margin-left: 59%;
+    }
     .cont7 .add1{
       margin-top: 7%;
       font-weight: bolder;
@@ -1532,6 +1536,10 @@ color: #959595;
       border-radius: 5px 5px;
       outline: none;
       margin-left: 7%;
+    }
+    .cont7 .send{
+      margin-top: 5%;
+      margin-left: 55%;
     }
     .width{
       width: 100%;
