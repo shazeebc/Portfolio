@@ -1218,6 +1218,13 @@ color: #959595;
   }
 
 }
+@media  (max-width: 420px){
+  .cont6 .resumetext{
+    margin-top: 20%;
+    margin-left: -10%;
+}
+
+}
 @media  (max-width: 400px){
   .cont6 .resumetext{
     margin-top: 20%;
@@ -1225,7 +1232,7 @@ color: #959595;
 }
 
 }
-@media  (max-width: 350px){
+@media  (max-width: 380px){
   .cont6 .resumetext{
     margin-top: 20%;
     margin-left: -20%;
