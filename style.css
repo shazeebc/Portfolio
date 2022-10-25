@@ -58,7 +58,6 @@ font-family: 'Ubuntu', sans-serif;
   color:white;
   border-bottom: 1px solid #FFCB42;
   
- 
 }
 /* .option a::after{ 
   content: '';
@@ -247,8 +246,10 @@ nav {
   }
   .head a:hover{
     /* background-color:#7895B2 ; */
-    background-color: black;
-    color:#FFCB42; 
+    box-shadow: 0 0 20px 0;
+    color: #FFCB42;
+    border: none;
+    transform: scale(1.05); 
     
   }
   .container1 .section1 .nav a:hover{
@@ -995,7 +996,7 @@ h1{
 .cont5 .aboutcont .aboutimg img{
   width: 65%;
   height: 35vh;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   border-radius: 5px 5px;
   margin-top: 0%;
   margin-left: 20%;
@@ -1034,7 +1035,10 @@ color: #959595;
 }
 .praclink1 a:hover{
     color:black;
-    background-color:white; 
+    background-color:#1a1716;
+    box-shadow: 0 0 20px 0;
+    color: #FFCB42;
+    transform: scale(1.05); 
    
 }
 
@@ -1184,8 +1188,10 @@ color: #959595;
 
 }
 .cont6 .resumetext a:hover{
-  background-color:white;
-  color: black;
+  background-color:#1a1716;
+  box-shadow: 0 0 20px 0;
+    color: #FFCB42;
+    transform: scale(1.05); 
   
 }
 @media  (max-width: 600px){
@@ -1335,8 +1341,11 @@ color: #959595;
   padding: 10px 10px;
 }
 .cont7 .send a:hover{
-  color:#FFCB42;
+   border: none;
   background-color:black;
+  box-shadow: 0 0 20px 0;
+    color: #FFCB42;
+    transform: scale(1.05); 
 
 }
 .add .add1 i{
@@ -1605,6 +1614,16 @@ color: #959595;
   color:#FFCB42;
 
 }
+.container7 .section7 .social .icon i:hover{
+ 
+  box-shadow: 0 0 20px 0;
+  /* border: 1px solid #FFFFFF; */
+  border-radius: 50px;
+    color: white;
+    background: transparent;
+  
+   
+}
 .container7 .footer{
   width: 70%;
   margin-bottom: 15%;
@@ -1656,7 +1675,10 @@ color: #959595;
   color: #FFCB42;
 }
 .top i:hover{
-  color:white;
+  color:white;background-color:#1a1716;
+  box-shadow: 0 0 20px 0;
+    border-radius: 80px;
+    transform: scale(1.05); 
 }
 @media  (max-width: 410px){
   .top{ 
