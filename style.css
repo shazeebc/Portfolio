@@ -277,13 +277,15 @@ nav {
     padding-top: 40px;
   }
 .drop img{
-     height: 20vh;
-     width: 10%;
- 
+  height: 20vh;
+  width: 10%;
+
   }
   .drop{
     text-align: center;
     width: 85%;
+    margin-left: 26px;
+    margin-top: 10PX;
   }
   /* .balls{
     background: #131315;
@@ -387,6 +389,17 @@ background-color: grey;
    padding-top: 20%
     
   }
+  .drop{
+    text-align: center;
+    width: 85%;
+    margin-left: 26px;
+    margin-top: 10PX;
+  }
+  .drop img{
+    height: 20vh;
+    width: 25%;
+  
+    }
 
 };
 /* @media  (max-width: 450px){
