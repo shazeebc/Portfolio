@@ -276,6 +276,15 @@ nav {
   .move{
     padding-top: 40px;
   }
+.drop img{
+     height: 20vh;
+     width: 10%;
+ 
+  }
+  .drop{
+    text-align: center;
+    width: 85%;
+  }
   /* .balls{
     background: #131315;
     display: flex;
