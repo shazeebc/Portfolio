@@ -405,8 +405,9 @@ background-color: grey;
 @media  (max-width: 410px){
 
   .drop img{
-    height: 20vh;
+    height: 12vh;
     width: 25%;
+    margin-top: 5PX;
   
     
 }
