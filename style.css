@@ -401,7 +401,16 @@ background-color: grey;
   
     }
 
-};
+}
+@media  (max-width: 410px){
+
+  .drop img{
+    height: 20vh;
+    width: 25%;
+  
+    
+}
+}
 /* @media  (max-width: 450px){
   .back{
     min-height: 20vh;
