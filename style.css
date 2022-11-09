@@ -234,7 +234,7 @@ nav {
   .head{
     padding-top: 6%;
   } 
-  .head a{
+  .head .move a{
     
     text-decoration: none;
     color: white;
@@ -246,7 +246,7 @@ nav {
     
     
   }
-  .head a:hover{
+  .head .move a:hover{
     /* background-color:#7895B2 ; */
     box-shadow: 0 0 20px 0;
     color: #FFCB42;
@@ -279,6 +279,19 @@ nav {
 .drop1 img{
   height: 20vh;
   width: 8%;
+
+  }
+  .head .drop1 a{
+    text-decoration: none;
+    outline: none;
+    border: 0;
+  }
+  .head .drop1 a:hover{
+    text-decoration: none;
+    outline: none;
+    border: 0;
+    transform: scale(0); 
+    box-shadow: none;
 
   }
   .drop1{
